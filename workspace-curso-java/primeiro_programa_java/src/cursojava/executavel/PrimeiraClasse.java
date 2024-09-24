@@ -1,20 +1,27 @@
 package cursojava.executavel;
 
-/*Resultado apresentado em numeros decimais - double*/
+/*Char representa 1 caracter, 1 letra*/
 
 public class PrimeiraClasse {
 
 	/* Main é um método auto executavel em Java */
 	public static void main(String[] args) {
 
-		double nota1 = 90;
-		double nota2 = 70;
-		double nota3 = 50;
-		double nota4 = 88;
+		char pessoaFisica = 'C';
+		char pessoaJuridica = 'J';
 
-		double mediaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
+		char sexoMasculino = 'M';
+		char sexoFeminino = 'F';
 
-		System.out.println("Média das notas é: " + mediaFinal);
+		/*
+		 * Pode ser usado para busca em banco de dados; ocupa pouca memoria
+		 */
+
+		if (sexoFeminino == 'F') {
+			System.out.println("Feminino");
+		} else {
+			System.out.println("Masculino");
+		}
 
 	}
 
