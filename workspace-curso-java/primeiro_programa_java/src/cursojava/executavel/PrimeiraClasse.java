@@ -7,22 +7,12 @@ public class PrimeiraClasse {
 	/* Main é um método auto executavel em Java */
 	public static void main(String[] args) {
 
-		char pessoaFisica = 'C';
-		char pessoaJuridica = 'J';
+		/*String sempre será um texto de qualquer tamanho;
+		 *usado para nome, CPF, cadastro, pra maioria das coisas*/
 
-		char sexoMasculino = 'M';
-		char sexoFeminino = 'F';
-
-		/*
-		 * Pode ser usado para busca em banco de dados; ocupa pouca memoria
-		 */
-
-		if (sexoFeminino == 'F') {
-			System.out.println("Feminino");
-		} else {
-			System.out.println("Masculino");
-		}
-
+		String textoQualquer = "Olá Mundo!";
+		
+		
 	}
 
 }
